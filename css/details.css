@@ -1,0 +1,119 @@
+.app-margined.info{
+    color: #6a1010;
+}
+
+.heading{
+    color: #c50606;
+}
+select.invalid-field {
+    border: 2px solid #b91a0e;
+    padding: 0 9px;
+}
+.select{
+    margin-bottom: 15px;
+}
+.select:after{
+    content: "\f0d7";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display,inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+    margin-left: -20px;
+}
+
+.select > select{
+    padding: 3px 30px 3px 7px;
+}
+
+
+.questionAnswer{
+    display: flex;
+    flex-direction: column;
+    max-width: 335px;
+}
+
+.questionAnswer > div{
+    display: flex;
+}
+
+.questionAnswer > div > *:nth-child(1){
+    min-width: 70px;
+    font-size: 14px;
+    vertical-align: middle;
+    display: flex;
+    margin-top: 8.775px;
+}
+
+.questionAnswer > div > *:nth-child(2), .questionAnswer > div > *:nth-child(3){
+    flex: 1;
+    margin-bottom: 15px;
+}
+
+.questionAnswer > div > *:nth-child(3) button{
+    cursor: pointer;
+    border: none;
+    outline: 0;
+    background: transparent;
+}
+
+.questionAnswer input{
+    line-height: 32px;
+    height: 32px;
+    max-height: 32px;
+}
+
+label.question{
+    font-weight: 900;
+}
+
+label.question > span{
+    color: #ab0404;
+}
+
+.questionAnswer ~ .input-error-description{
+    margin: -10px 0 30px 0;
+}
+
+@media screen and (min-width: 767px){
+    .select:after{
+        position: absolute;
+        margin-top: calc(16px - 7.245px);
+    }
+}
+
+@media screen and (max-width: 768px){
+    .select:after{
+        position: absolute;
+        margin-top: calc(24px - 7.245px);
+    }
+    .questionAnswer{
+        max-width: 100%
+    }
+    .select > select {
+        padding: 11px 30px 11px 10px;
+    }
+    .questionAnswer input{
+        line-height: 48px;
+        height: 48px;
+        max-height: 48px;
+    }
+}
+
+body:not(.rollingIn) button.submitting i{
+    display: none;
+}
+
+body.rollingIn button.submitting{
+    border-radius: 3px !important;
+    cursor: not-allowed !important;
+    background: #003168 !important;
+}
+
+body.rollingIn button.submitting span{
+    display: none;
+}

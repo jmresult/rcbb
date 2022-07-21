@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32px" height="28px" viewBox="0 0 32 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/warning-32</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Alerts-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-92.000000, -273.000000)" id="Icons">
+            <g transform="translate(30.000000, 224.000000)">
+                <g id="icon/warning-32" transform="translate(62.000000, 49.000000)">
+                    <g>
+                        <path d="M15.9500927,0 C15.5508343,0 15.0517613,0.199288256 14.8521321,0.697508897 L0.179385946,26.1067616 C-0.319687053,26.9039146 0.279200545,28 1.27734654,28 L30.7226535,28 C31.7207995,28 32.3196871,27.0035587 31.8206141,26.1067616 L17.1478679,0.697508897 C16.8484241,0.199288256 16.3493511,0 15.9500927,0" id="Shape" fill="#FFBA00" fill-rule="nonzero"></path>
+                        <circle id="Oval" fill="#252525" cx="16" cy="23.25" r="1.5"></circle>
+                        <path d="M16,19 C16.6,19 17,18.6 17,18 L17,10 C17,9.4 16.6,9 16,9 C15.4,9 15,9.4 15,10 L15,18 C15,18.6 15.4,19 16,19 Z" id="Shape" fill="#252525" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,36 @@
+.app-margined.info{
+    color: #6a1010;
+}
+
+.heading{
+    color: #c50606;
+}
+
+
+
+
+
+@media screen and (min-width: 767px) and (min-height: 612px){
+    footer{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+}
+
+
+
+body:not(.rollingIn) button.submitting i{
+    display: none;
+}
+
+body.rollingIn button.submitting{
+    border-radius: 3px !important;
+    cursor: not-allowed !important;
+    background: #003168 !important;
+}
+
+body.rollingIn button.submitting span{
+    display: none;
+}

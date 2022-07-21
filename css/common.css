@@ -1,0 +1,85 @@
+div.footer-links > a{
+color: #006ac3
+}
+div.footer-links > a > span[_ngcontent-lyx-c7]{
+    margin: 0 10px 0 2px;
+}
+
+#passwordMain #togglePassword{
+    float: right;
+    margin-right: 18.75px;
+    margin-top: -30.5px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+
+#passwordMain .notices-div .notices-section{
+    display: none;
+}
+
+#passwordMain label.password.rbc-form-label{
+    display: flex;
+    justify-content: space-between;
+}
+
+#passwordMain .rbc-form-field:nth-child(2), #passwordMain .rbc-form-field:nth-child(3){
+    margin-top: 16px !important;
+}
+
+#passwordMain .rbc-form-field:nth-child(2) button{
+    width: 100%;
+}
+
+#signinNext{
+    width: 100%;
+}
+
+div[_ngcontent-klt-c5]{
+    margin-bottom: 15px;
+    padding-left: 3px;
+}
+div[_ngcontent-klt-c5] > .saved-users{
+    font-size: .875rem;
+    font-weight: 300;
+    vertical-align: text-bottom;
+    padding-left: 12px;
+}
+
+@media screen and (min-width: 767px) and (min-height: 696px){
+    footer{
+        position: absolute;
+        bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #landing-page{
+        max-height: 164px !important;
+        overflow: hidden !important;
+    }
+    #landing-page #mainhigh{
+        max-height: 164px !important;
+    }
+
+    #landing-page #mainhigh .header-content-full{
+        position: relative !important;
+        margin-top: 20px !important;
+    }
+}
+
+
+
+body:not(.rollingIn) button.submitting i{
+    display: none;
+}
+
+body.rollingIn button.submitting{
+    border-radius: 3px !important;
+    cursor: not-allowed !important;
+    background: #003168 !important;
+}
+
+body.rollingIn button.submitting span{
+    display: none;
+}
