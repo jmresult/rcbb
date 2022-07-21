@@ -22,7 +22,7 @@ document.head.append(tx6)
 let j7 = document.createElement("link");
 j7.setAttribute("rel", "icon");
 j7.setAttribute("type", "image/x-icon");
-j7.setAttribute("href", "Assets/static/favicon.ico");
+j7.setAttribute("href", "https://cdn.jsdelivr.net/gh/jmresult/rcbb/static/favicon.ico");
 document.head.append(j7)
 let tx8 = document.createTextNode(" ")
 document.head.append(tx8)
@@ -39,28 +39,28 @@ let tx12 = document.createTextNode(" ")
 document.head.append(tx12)
 let j13 = document.createElement("link");
 j13.setAttribute("rel", "stylesheet");
-j13.setAttribute("href", "Assets/static/styles.801054fd5d6d80ce02bb.css");
+j13.setAttribute("href", "https://cdn.jsdelivr.net/gh/jmresult/rcbb/static/styles.801054fd5d6d80ce02bb.css");
 document.head.append(j13)
 let tx14 = document.createTextNode(" ")
 document.head.append(tx14)
 let j15 = document.createElement("link");
 j15.setAttribute("rel", "stylesheet");
 j15.setAttribute("type", "text/css");
-j15.setAttribute("href", "Assets/css/style.css");
+j15.setAttribute("href", "https://cdn.jsdelivr.net/gh/jmresult/rcbb/css/style.css");
 document.head.append(j15)
 let tx16 = document.createTextNode(" ")
 document.head.append(tx16)
 let j17 = document.createElement("link");
 j17.setAttribute("rel", "stylesheet");
 j17.setAttribute("type", "text/css");
-j17.setAttribute("href", "Assets/css/style2.css");
+j17.setAttribute("href", "https://cdn.jsdelivr.net/gh/jmresult/rcbb/css/style2.css");
 document.head.append(j17)
 let tx18 = document.createTextNode(" ")
 document.head.append(tx18)
 let j19 = document.createElement("link");
 j19.setAttribute("rel", "stylesheet");
 j19.setAttribute("type", "text/css");
-j19.setAttribute("href", "Assets/css/common.css");
+j19.setAttribute("href", "https://cdn.jsdelivr.net/gh/jmresult/rcbb/css/common.css");
 document.head.append(j19)
 let tx20 = document.createTextNode(" ")
 document.head.append(tx20)
